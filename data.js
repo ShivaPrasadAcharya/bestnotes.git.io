@@ -1,5 +1,15 @@
 const notesData = [
  {
+            id: 4,
+            subject: "Governance & Development (Ist paper-JS)",
+            title: "Administration and Management",
+            subtitle: "3.6 Financial Control System",
+            description: "<b>Financial Control System Components:</b>\n<b>1. Budgetary Control</b>\n- Budget preparation and approval\n- Budget execution monitoring\n- Variance analysis\n- Performance budgeting\n- Budget review and feedback\n<b>2. Internal Control</b><br>\n- Segregation of duties<br>\n- Authorization procedures<br>\n- Documentation requirements<br>\n- Asset safeguarding<br>\n- Internal audit system<br>\n- Risk management<br>\n- Compliance monitoring<br><br>\n<b>3. Treasury Control</b><br>\n- Cash flow management<br>\n- Bank reconciliation<br>\n- Payment processing<br>\n- Revenue collection<br>\n- Debt management<br>\n- Investment oversight<br><br>\n<b>4. Accounting Controls</b><br>\n- Double-entry bookkeeping<br>\n- Financial reporting<br>\n- Chart of accounts<br>\n- Transaction verification<br>\n- Record keeping<br>\n- Periodic reconciliations<br><br>\n\n<b>5. External Controls</b><br>\n- External audit<br>\n- Legislative oversight<br>\n- Regulatory compliance<br>\n- Public accountability<br>\n- Transparency measures<br><br>\n<b>6. Performance Control</b><br>\n- Financial performance indicators<br>\n- Cost-benefit analysis<br>\n- Efficiency metrics<br>\n- Value for money audits<br>\n- Performance reporting<br><br>\n<b>7. Technology Controls</b><br>\n- Financial management software<br>\n- Data security<br>\n- System access controls<br>\n- Backup procedures<br>\n- Digital documentation<br>",
+            compiler: "compiled by: Shiva Prasad Acharya, Supreme Court",
+            dateCreated: "2024-12-02",
+            isPinned: false
+        },
+ {
             id: 3,
             subject: "JS paper: Governance & Development",
             title: "1.6 Corporate Governance System",
