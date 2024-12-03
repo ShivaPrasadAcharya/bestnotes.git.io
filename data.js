@@ -1,4 +1,14 @@
 const notesData = [
+{
+            id: 6,
+            subject: "Ist paper-JS",
+            title: "Diplomacy",
+            subtitle: "BRI-China",
+            description: "<b><u>China's Belt and Road Initiative (BRI) in Nepal:</u></b>\n<b>Key Timeline and Status:</b>\n- Nepal signed the BRI framework agreement with China in May 2017\n- Initially proposed 35 projects, later reduced to 9 at China's request\n- As of 2024, none of the BRI projects have been completed\n- Implementation plan remains unsigned and under negotiation\n<b>Major Issues:</b>\n1. Funding Concerns:\n- Nepal prefers grants over loans\n- Seeks soft loans at <2% interest rate\n- Current external debt to China: $261 million\n<b>2. Project Status:</b>\n- Two hydropower projects (Tamor and Phukot Karnali) transferred to Indian companies\n- Madan Bhandari University now solely funded by Nepal\n- Kerung-Kathmandu railway facing technical and financial challenges\n- Most road infrastructure projects show no progress\n<b>3. Key Controversies:</b>\n- China attempting to label non-BRI projects (like Pokhara Airport) as BRI projects\n- Concerns over security cooperation clauses in implementation plan\n- Ambiguity over funding models and project selection criteria\n<b>China's Alternative Approaches:</b>\n- Focusing on soft power initiatives through \"Silk Roadster\" platform\n- Expanding cultural, educational, and political ties\n- Increasing scholarships for Nepali students\n- Strengthening party-to-party relationships\n- Using BRI as a broader diplomatic tool beyond infrastructure\n<b>Strategic Implications:</b>\n- Nepal balancing relationships between China, India, and the US\n- China achieving security objectives regarding Tibet despite BRI delays\n- India responding with counter-initiatives (like Raxaul-Kathmandu railway)\n- Growing Chinese influence in Nepal despite lack of progress in hard infrastructure\n\nThe paper concludes that while physical infrastructure projects under BRI have stalled, China has successfully used the initiative to expand its overall influence in Nepal through soft power and diplomatic means, while achieving key security objectives, particularly regarding Tibet.",
+            compiler: "compiled by: Shiva Prasad Acharya, Supreme Court (2081)",
+            dateCreated: "2024-12-03",
+            isPinned: false
+        },
         {
             id: 5,
             subject: "Ethics in Public Sector Management-IInd paper, JS",
