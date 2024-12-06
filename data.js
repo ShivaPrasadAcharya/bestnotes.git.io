@@ -1,5 +1,15 @@
 const notesData = [
             {
+            id: 10,
+            subject: "IInd paper",
+            title: "3.6 Deprofessionalism tactics",
+            subtitle: "3.6 Deprofessionalism tactics",
+            description: "<b>Internal Undermining**</b>\n• Reducing professional development opportunities\n• Limiting access to specialized training\n• Replacing expert roles with generalist positions\n• Diluting professional qualifications requirements\n<b>Resource Reduction**</b>\n• Budget cuts for professional development\n• Reduced staffing in specialized roles\n• Limited access to professional tools and resources\n• Inadequate workspace and equipment\n<b>Structural Shifts**</b>\n• Flattening organizational hierarchies\n• Merging specialized departments\n• Eliminating professional advancement paths\n• Converting permanent positions to temporary ones\n<b>Authority Erosion**</b>\n• Bypassing professional judgment\n• Reducing decision•making autonomy\n• Limiting participation in policy decisions\n• Transferring control to non•expert managers\n<b>Knowledge Devaluation**</b>\n• Dismissing expertise•based recommendations\n• Prioritizing cost over quality\n• Replacing professional standards with metrics\n• Undervaluing specialized knowledge\n<b>Professional Identity Weakening**</b>\n• Diluting professional codes of conduct\n• Reducing professional association involvement\n• Limiting peer networking opportunities\n• Weakening professional communities\n<b>Quality Compromise**</b>\n• Lowering service standards\n• Increasing workloads without support\n• Rushing professional processes\n• Prioritizing quantity over quality\n<b>Status Reduction**</b>\n• Diminishing professional titles\n• Reducing compensation for expertise\n• Limiting recognition of achievements\n• Downgrading professional positions\n<b>Accountability Shifting**</b>\n• Moving responsibility without authority\n• Increasing administrative burdens\n• Creating unrealistic performance metrics\n• Implementing punitive evaluation systems\n<b>Communication Control**</b>\n• Restricting professional discourse\n• Limiting access to stakeholders\n• Controlling information flow\n• Reducing transparency in decision•making\n",
+            compiler: "compiled by: Shiva Prasad Acharya, Supreme Court (2081)",
+            dateCreated: "2024-12-06",
+            isPinned: false
+        },
+            {
             id: 9,
             subject: "IInd paper",
             title: "1.3 Worst/Failures Practices",
