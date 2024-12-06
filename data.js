@@ -1,5 +1,15 @@
 const notesData = [
             {
+            id: 13,
+            subject: "Ist paper-JS",
+            title: "2.2 Democracy and Human Rights",
+            subtitle: "Comparision Between HR & FRs",
+            description: "<b><u>मानव अधिकार र मौलिक अधिकार बीचको fundamental differences लाई यसरी व्याख्या गर्न सकिन्छ:</b></u>\n<b>Origin and Sources को भिन्नता</b>\n- Human Rights are universal र natural rights हुन्\n- मौलिक अधिकारहरू constitution बाट derive भएका हुन्छन्\n- HR को source international law र natural law हो\n- FR चाहिँ देशको constitutional framework भित्र रहन्छ\n\n<b>Enforcement को प्रकृति</b>\n- मौलिक अधिकार legally enforceable हुन्छन्\n- HR को enforcement mechanism relatively weak छ\n- FR violation मा constitutional remedies पाइन्छ\n- HR violation मा moral pressure र international mechanism मात्र छ\n\n<b>Scope and Coverage को फरक</b>\n- Human Rights are broader र comprehensive छन्\n- मौलिक अधिकार specific र legally defined हुन्छन्\n- HR सबै मानिसका लागि universal हुन्छन्\n- FR केवल त्यो देशका नागरिकका लागि मात्र हुन्छन्\n\n<b>Limitation र Restriction</b>\n- मौलिक अधिकारमा constitutional limitations हुन्छन्\n- HR मा minimum restrictions मात्र हुन्छन्\n- FR suspend पनि हुन सक्छन् emergency मा\n- Human Rights inalienable हुन्छन्\n\n<b>Protection Mechanism</b>\n- FR को लागि judicial protection छ\n- HR को लागि international bodies छन्\n- मौलिक अधिकार court द्वारा enforce हुन्छन्\n- HR international pressure द्वारा protect हुन्छन्\n\n<b>Nature of Rights को भिन्नता</b>\n- HR are moral र ethical principles\n- FR are legal र constitutional rights\n- मौलिक अधिकार specifically defined छन्\n- Human Rights broadly conceptualized छन्\n\n<b>Implementation Process</b>\n- FR directly enforceable छन्\n- HR को implementation indirect हुन्छ\n- मौलिक अधिकार violation मा direct remedy छ\n- HR violation मा complex procedures छन्\n\n<b>Territorial Jurisdiction</b>\n- FR specific territory मा limit छन्\n- HR globally applicable छन्\n- मौलिक अधिकार national boundary भित्र\n- Human Rights know no boundaries\n\n<b>Time Factor र Evolution</b>\n- HR historically evolved भएका छन्\n- FR consciously adopted गरिएका हुन्\n- मौलिक अधिकार constitutional making process को product\n- Human Rights natural evolution को परिणाम\n\n<b>Modification Process</b>\n- FR can be amended constitutionally\n- HR are relatively permanent\n- मौलिक अधिकार parliament ले modify गर्न सक्छ\n- HR modification needs international consensus\n\nयी differences ले देखाउँछन् कि:\n- FR are more specific र enforceable\n- HR provide broader moral framework\n- मौलिक अधिकार more practical छन्\n- Human Rights more aspirational छन्",
+            compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
+            dateCreated: "2024-12-06",
+            isPinned: false
+        },
+            {
             id: 12,
             subject: "IInd paper-JS",
             title: "1.8 Principles of Public life",
