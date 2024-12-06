@@ -1,5 +1,16 @@
 const notesData = [
             {
+            id: 11,
+            subject: "Zero paper-JS",
+            title: "UN and Nepal",
+            subtitle: "Benefits taken by Nepal from UN",
+            description: "Nepal's benefits from the UN\n\n<b>Peace and Political Patronage</b>\n- Peacekeeping participation providing profitable prospects\n- Constitutional crafting consultation post-conflict\n- Democratic development and diplomatic support\n- Mediation during Maoist movement transitions\n\n<b>Development Dynamics and Direct Aid</b>\n- UNDP's dedicated development drives\n- Sustainable solutions for social sectors\n- Poverty programs with practical paths\n- Rural region rejuvenation reforms\n\n<b>Health Harmony and Humanitarian Help</b>\n- WHO's widespread wellness work\n- Vaccination ventures and vital care\n- Maternal mortality management\n- Emergency aid during earthquakes and epidemics\n\n<b>Educational Enhancement</b>\n- UNESCO's uplifting undertakings\n- School system strengthening support\n- Teacher training and technical assistance\n- Cultural conservation collaboration\n\n<b>Financial Flows and Funding</b>\n- World Bank's beneficial backing\n- IMF's monetary management guidance\n- Development grants and generous giving\n- Economic expertise and essential aid\n\n<b>Environmental Enrichment</b>\n- Climate change capacity creation\n- Biodiversity preservation programs\n- Natural resource nurturing initiatives\n- Sustainable development strategy support\n\n<b>Technical Training and Trade</b>\n- Skill development schemes and systems\n- Trade facilitation and framework formation\n- Technology transfer and training programs\n- Industrial infrastructure improvements\n\n<b>Gender Justice and Growth</b>\n- Women's empowerment endeavors\n- Gender equality guidance and grants\n- Female-focused financial freedom\n- Social security strengthening support\n\n<b>Agricultural Advancement</b>\n- FAO's farming facilitation\n- Food security fortification\n- Agricultural adaptation assistance\n- Rural resilience reinforcement\n\n<b>Diplomatic Dimensions</b>\n- International integration importance\n- Global governance guidance\n- Regional relationship reinforcement\n- Multilateral meeting membership\n\nThese benefits have helped Nepal navigate numerous national needs and nurture necessary growth, though challenges certainly continue in capitalizing completely on these collaborative connections.\n\n",
+            compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
+            dateCreated: "2024-12-06",
+            isPinned: false
+        },
+            
+            {
             id: 10,
             subject: "IInd paper-JS",
             title: "3.6 Deprofessionalism tactics",
