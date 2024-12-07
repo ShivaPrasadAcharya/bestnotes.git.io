@@ -20,11 +20,8 @@ const utils = {
     formattedContent = formattedContent.replace(/\*(.+?)\*/g, '<em>$1</em>');
     formattedContent = formattedContent.replace(/\_\_(.+?)\_\_/g, '<u>$1</u>');
     
-// Lists with CSS styling
-        // Format bullets
-        content = content.replace(/•\s(.+)/g, '<li>$1</li>');
-        content = content.replace(/(<li>.*<\/li>)/gs, '<ul>$1</ul>');
-        
+
+        // Format bullets 
 formattedContent = formattedContent.replace(/•\s(.+)/g, '<li>$1</li>');
 formattedContent = formattedContent.replace(/(<li>.*<\/li>)/gs, '<ul>$1</ul>');
     
