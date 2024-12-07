@@ -1,4 +1,14 @@
 const notesData = [
+            {
+  id: 15,
+  subject: "IIIrd paper-JS law",
+  title: "5.6 Domestication of IL",
+  subtitle: "Features of Dualism",
+  description: "<b><u>१. मूलभूत विशेषताहरू (Core Features):</b></u>\n<b>क) पृथक कानूनी प्रणाली (Separate Legal Systems):</b>\n- International र domestic law दुई भिन्न systems हुन्\n- Different sources र subjects\n- Independent operation र validity\n<b>ख) Transformation Requirement:</b>\n- Specific legislation for implementation\n- Parliamentary action necessary\n- No automatic domestic effect\n<b>ग) Sovereignty Protection:</b>\n- State sovereignty preserved\n- Domestic law supremacy in internal matters\n- Parliamentary sovereignty maintained\n<b><u>२. प्रक्रियागत विशेषताहरू (Procedural Features):</b></u>\n<b>क) Legislative Process:</b>\n- Formal incorporation necessary\n- Specific enabling legislation\n- Parliamentary scrutiny required\n<b>ख) Judicial Application:</b>\n- Only transformed law applicable\n- No direct application of treaties\n- Domestic law interpretation priority\n<b><u>३. कार्यान्वयन विशेषताहरू (Implementation Features):</b></u>\n<b>क) Implementation Mechanism:</b>\n- Structured transformation process\n- Clear legislative framework\n- Domestic implementation guidelines\n<b>ख) Compliance Structure:</b>\n- Internal monitoring system\n- Domestic enforcement mechanism\n- National compliance framework\n<b><u>४. Constitutional विशेषताहरू (Constitutional Features):</b></u>\n<b>क) Constitutional Framework:</b>\n- Clear separation doctrine\n- Domestic law supremacy\n- Parliamentary sovereignty\n<b>ख) Legal Hierarchy:</b>\n- Domestic constitutional supremacy\n- Clear legal order\n- Internal law priority\n<b><u>५. प्रभावकारिता सम्बन्धी विशेषताहरू (Effectiveness Features):</b></u>\n<b>क) Democratic Control:</b>\n- Parliamentary oversight\n- Public accountability\n- Democratic legitimacy\n<b>ख) Legal Certainty:</b>\n- Clear domestic framework\n- Predictable application\n- Consistent interpretation",
+  compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
+  dateCreated: "2024-12-07",
+  isPinned: false
+},
 {
             id: 14,
             subject: "IIIrd paper-JS law",
