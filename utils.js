@@ -20,10 +20,10 @@ const utils = {
     formattedContent = formattedContent.replace(/\*(.+?)\*/g, '<em>$1</em>');
     formattedContent = formattedContent.replace(/\_\_(.+?)\_\_/g, '<u>$1</u>');
     
-    // Lists
-    formattedContent = formattedContent.replace(/^\s*[-*•]\s(.+)$/gm, '<li>$1</li>');
-    formattedContent = formattedContent.replace(/^\d+\.\s(.+)$/gm, '<li>$1</li>');
-    formattedContent = formattedContent.replace(/(<li>.*<\/li>)/gs, '<ul>$1</ul>');
+// Lists with CSS styling
+formattedContent = formattedContent.replace(/^\s*[-*•]\s(.+)$/gm, '<li style="margin:0;padding:2px">$1</li>');
+formattedContent = formattedContent.replace(/^\d+\.\s(.+)$/gm, '<li style="margin:0;padding:2px">$1</li>');
+formattedContent = formattedContent.replace(/(<li.*<\/li>)/gs, '<ul style="margin:0;padding-left:20px">$1</ul>');
     
     // Tables
     formattedContent = formattedContent.replace(/\|(.+)\|/g, (match) => {
