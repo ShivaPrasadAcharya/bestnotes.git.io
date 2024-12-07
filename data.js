@@ -1,4 +1,14 @@
 const notesData = [
+            {
+            id: 19,
+            subject: "IIIrd paper-JS",
+            title: "4.6 Major International Institutions...",
+            subtitle: "4.6 Major International Institution, Agencies and Fora",
+            description: "Major International Institutions, Agencies, and Fora:\n\n<b><u>१. संयुक्त राष्ट्र संघ संस्थाहरू (UN Organizations):</b></u>\n<b>क) प्रमुख अंगहरू (Principal Organs):</b>\n- महासभा (General Assembly) - सबै सदस्य राष्ट्रहरूको प्रतिनिधित्व\n- सुरक्षा परिषद (Security Council) - अन्तर्राष्ट्रिय शान्ति र सुरक्षाको जिम्मेवारी\n- आर्थिक तथा सामाजिक परिषद (ECOSOC) - आर्थिक-सामाजिक विकासको समन्वय\n\n<b>ख) विशेष एजेन्सीहरू (Specialized Agencies):</b>\n- विश्व स्वास्थ्य संगठन (WHO) - स्वास्थ्य मापदण्ड र नीतिहरू\n- विश्व बैंक समूह (World Bank Group) - विकास वित्त र गरिबी न्यूनीकरण\n- अन्तर्राष्ट्रिय मुद्रा कोष (IMF) - वैश्विक मौद्रिक स्थिरता\n\n<b><u>२. क्षेत्रीय संगठनहरू (Regional Organizations):</b></u>\n<b>क) एशिया प्रशान्त क्षेत्र (Asia-Pacific):</b>\n- आसियान (ASEAN) - दक्षिण-पूर्व एशियाली राष्ट्रहरूको संगठन\n- SAARC - दक्षिण एशियाली क्षेत्रीय सहयोग संगठन\n- APEC - एशिया-प्रशान्त आर्थिक सहयोग मञ्च\n\n<b>ख) अन्य क्षेत्रीय संगठनहरू (Other Regional Bodies):</b>\n- युरोपियन युनियन (EU) - युरोपेली एकीकरण र सहकार्य\n- अफ्रिकी युनियन (AU) - अफ्रिकी एकता र विकास\n- OAS - अमेरिकी राज्यहरूको संगठन\n\n<b><u>३. अन्तर्राष्ट्रिय आर्थिक संस्थाहरू (International Economic Institutions):</b></u>\n<b>क) व्यापार र वाणिज्य (Trade and Commerce):</b>\n- विश्व व्यापार संगठन (WTO) - अन्तर्राष्ट्रिय व्यापार नियमन\n- UNCTAD - व्यापार र विकास सम्बन्धी संयुक्त राष्ट्र सम्मेलन\n- ICC - अन्तर्राष्ट्रिय वाणिज्य कक्ष\n\n<b>ख) विकास वित्त (Development Finance):</b>\n- एशियाली विकास बैंक (ADB) - एशियाली क्षेत्रको विकास वित्त\n- AIIB - एशियाली पूर्वाधार लगानी बैंक\n- NDB - नयाँ विकास बैंक (BRICS बैंक)\n\n<b><u>४. अन्तर्राष्ट्रिय फोरमहरू (International Forums):</b></u>\n<b>क) बहुपक्षीय समूहहरू (Multilateral Groups):</b>\n- G20 - प्रमुख अर्थतन्त्रहरूको समूह\n- G7 - विकसित राष्ट्रहरूको समूह\n- BRICS - उदीयमान अर्थतन्त्रहरूको समूह\n\n<b>ख) विशेष क्षेत्र फोरमहरू (Specialized Forums):</b>\n- विश्व आर्थिक मञ्च (WEF) - आर्थिक नीति छलफल\n- विश्व सामाजिक मञ्च (WSF) - वैकल्पिक विश्वव्यवस्था छलफल\n- COP - जलवायु परिवर्तन सम्मेलन",
+            compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
+            dateCreated: "2024-12-07",
+            isPinned: false
+        },
 {
             id: 18,
             subject: "IIIrd paper-JS ",
