@@ -21,9 +21,12 @@ const utils = {
     formattedContent = formattedContent.replace(/\_\_(.+?)\_\_/g, '<u>$1</u>');
     
 // Lists with CSS styling
-formattedContent = formattedContent.replace(/^\s*[-*•]\s(.+)$/gm, '<li style="margin:0;padding:1px">$1</li>');
-formattedContent = formattedContent.replace(/^\d+\.\s(.+)$/gm, '<li style="margin:0;padding:1px">$1</li>');
-formattedContent = formattedContent.replace(/(<li.*<\/li>)/gs, '<ul style="margin:0;padding-left:20px">$1</ul>');
+        // Format bullets
+        content = content.replace(/•\s(.+)/g, '<li>$1</li>');
+        content = content.replace(/(<li>.*<\/li>)/gs, '<ul>$1</ul>');
+        
+formattedContent = formattedContent.replace(/•\s(.+)/g, '<li>$1</li>');
+formattedContent = formattedContent.replace(/(<li>.*<\/li>)/gs, '<ul>$1</ul>');
     
     // Tables
     formattedContent = formattedContent.replace(/\|(.+)\|/g, (match) => {
