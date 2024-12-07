@@ -1,5 +1,14 @@
 const notesData = [
-
+{
+            id: 17,
+            subject: "IIIrd paper-JS ",
+            title: "5.6 Fiscal Federalism",
+            subtitle: "5.6 Competitive Federalism Examples",
+            description: "CN12: Let me explain Competitive Federalism and its global practices:\n\n<b><u>१. प्रतिस्पर्धात्मक संघीयताको अवधारणा (Concept of Competitive Federalism):</b></u>\n<b>क) परिभाषा (Definition):</b>\n- संघीय इकाईहरूबीच प्रतिस्पर्धात्मक वातावरण\n- विकास र लगानीका लागि स्वस्थ प्रतिस्पर्धा\n- सेवा प्रवाहमा प्रतिस्पर्धात्मक सुधार\n\n<b>ख) मुख्य विशेषताहरू (Key Features):</b>\n- स्वायत्त निर्णय प्रणाली\n- बजार-आधारित प्रतिस्पर्धा\n- नवीन प्रविधि र प्रणालीको प्रयोग\n\n<b><u>२. भारतको अभ्यास (Indian Practice):</b></u>\n<b>क) NITI Aayog को भूमिका (Role of NITI Aayog):</b>\n- राज्यहरूको प्रतिस्पर्धात्मक सूचकांक\n- सर्वोत्तम अभ्यासको आदानप्रदान\n- प्रदर्शनमा आधारित प्रोत्साहन\n\n<b>ख) राज्यस्तरीय पहल (State Level Initiatives):</b>\n- Ease of Doing Business रेन्किङ\n- लगानी आकर्षणका कार्यक्रम\n- कर प्रणालीमा प्रतिस्पर्धा\n\n<b><u>३. अमेरिकाको अभ्यास (US Practice):</b></u>\n<b>क) राज्यबीच प्रतिस्पर्धा (Interstate Competition):</b>\n- कर दरमा प्रतिस्पर्धा\n- व्यवसाय आकर्षणका रणनीति\n- नवप्रवर्तनमा प्रतिस्पर्धा\n\n<b>ख) नीतिगत प्रतिस्पर्धा (Policy Competition):</b>\n- शिक्षा र स्वास्थ्य नीति\n- वातावरणीय मापदण्ड\n- सामाजिक सुरक्षा कार्यक्रम\n\n<b><u>४. स्विट्जरल्यान्डको अभ्यास (Swiss Practice):</b></u>\n<b>क) क्यान्टनबीच प्रतिस्पर्धा (Inter-Cantonal Competition):</b>\n- कर प्रणालीमा स्वायत्तता\n- सेवा प्रवाहमा प्रतिस्पर्धा\n- शैक्षिक गुणस्तरमा प्रतिस्पर्धा\n\n<b>ख) वित्तीय प्रतिस्पर्धा (Fiscal Competition):</b>\n- राजस्व संकलन रणनीति\n- खर्च दक्षता\n- वित्तीय व्यवस्थापन\n\n<b><u>५. अष्ट्रेलियाको अभ्यास (Australian Practice):</b></u>\n<b>क) प्रदर्शन मूल्यांकन (Performance Assessment):</b>\n- सेवा वितरण मापदण्ड\n- प्रतिस्पर्धात्मक बेन्चमार्किङ\n- नतिजामा आधारित वितरण\n\n<b>ख) नवप्रवर्तन प्रतिस्पर्धा (Innovation Competition):</b>\n- नयाँ प्रविधिको प्रयोग\n- सार्वजनिक-निजी साझेदारी\n- डिजिटल सेवा प्रवाह\n\n<b><u>६. प्रतिस्पर्धात्मक संघीयताका फाइदा र चुनौतीहरू (Benefits and Challenges):</b></u>\n<b>क) फाइदाहरू (Benefits):</b>\n- सेवा प्रवाहमा सुधार\n- नवप्रवर्तन र सिर्जनशीलता\n- आर्थिक विकास र रोजगारी\n\n<b>ख) चुनौतीहरू (Challenges):</b>\n- क्षेत्रीय असन्तुलन\n- Race to the bottom को जोखिम\n- समन्वयको कठिनाई",
+            compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
+            dateCreated: "2024-12-07",
+            isPinned: false
+        },
             {
             id: 17,
             subject: "IIIrd paper-JS ",
