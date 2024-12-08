@@ -1,5 +1,15 @@
 const notesData = [
             {
+            id: 24,
+            subject: "zero paper-JS",
+            title: "Best phrases (Rajendra Sir)",
+            subtitle: "Best Phrases for PS Exam ",
+            description: "•expert होइन moralist चाहियो/ हुनुपर्यो (Wonkery or moralist)\n•RRR-Rule, Routine and Red Tape\n•निजामति सेवामा celebrity बन्ने होइन\n•निजमति सेवामा बढ्ने होइन अड्ने हो\n•plum posting & punishment posting\n•combining the hair one by one, cooking rice grain by grain-Laotse\n•Darling of people हुनपर्यो\n•Comprehensive Democracy\n•Overt Politicization-मनपरको सचिवलाई मन्त्रालयमा मनत्रीले तान्ने\n•when people are lame they try to blame\n•ल्याकत, लगन, लोकप्रियता, लोकाचार- निजामति सेवा\n•चिहानको गणतनत्रमा मात्र सबै समान हुन्छन्\n•कार विग्रियो भनेर बयलगाडाम हिड्न सकिन्न, कार नै मर्मत गर्नुपर्छ\n•मरिचमानले २०४४ सालमा सुकेका पकहरू (dead wood) सफा गर्ने नाममा १४४ जना कर्मचारीलाई अवकाटा दिएका छन्\n•अध्यारोलाई सराप्नुभन्दा महिन बाल्नु राम्रो हो\n•घर घरको खबर पल पलमा लिने क्षमता राख्नुपर्छ स्थानीय सरकारले\n•Deep State-TV serial",
+            compiler: "compiled by: Shiva Prasad Acharya, Supreme Court (2081)/ received from Rajendra Sir",
+            dateCreated: "2024-12-08",
+            isPinned: false
+        },
+            {
             id: 23,
             subject: "IIIrd paper-JS ",
             title: "5.6 Fiscal Federalism",
