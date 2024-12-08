@@ -18,64 +18,21 @@ class SearchManager {
     }
 
     handleSearch() {
-        const searchTerm = this.searchInput.value.trim().toLowerCase();
+        const searchTerm = this.searchInput.value.trim();
         
-        // Remove existing highlights
-        document.querySelectorAll('.highlight').forEach(el => {
-            const parent = el.parentNode;
-            parent.replaceChild(document.createTextNode(el.textContent), el);
-        });
-
+        // Clear previous highlights
+        this.clearHighlights();
+        
         if (searchTerm === '') {
             this.searchResults.classList.add('d-none');
+            this.matches = [];
+            this.updateMatchCount();
             return;
         }
 
         // Find and highlight matches
         this.matches = [];
-        const walker = document.createTreeWalker(
-            document.getElementById('notesContainer'),
-            NodeFilter.SHOW_TEXT,
-            {
-                acceptNode: function(node) {
-                    return node.textContent.toLowerCase().includes(searchTerm) ?
-                        NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
-                }
-            }
-        );
-
-        while (walker.nextNode()) {
-            const node = walker.currentNode;
-            const text = node.textContent;
-            const parent = node.parentNode;
-            
-            let lastIndex = 0;
-            let match;
-            const regex = new RegExp(searchTerm, 'gi');
-            
-            while ((match = regex.exec(text)) !== null) {
-                const before = text.slice(lastIndex, match.index);
-                const highlighted = document.createElement('span');
-                highlighted.className = 'highlight';
-                highlighted.textContent = match[0];
-                
-                if (before) {
-                    parent.insertBefore(document.createTextNode(before), node);
-                }
-                parent.insertBefore(highlighted, node);
-                this.matches.push(highlighted);
-                
-                lastIndex = regex.lastIndex;
-            }
-            
-            if (lastIndex < text.length) {
-                parent.insertBefore(
-                    document.createTextNode(text.slice(lastIndex)),
-                    node
-                );
-            }
-            parent.removeChild(node);
-        }
+        this.highlightMatches(searchTerm);
 
         // Update UI
         this.searchResults.classList.remove('d-none');
@@ -84,6 +41,65 @@ class SearchManager {
         if (this.matches.length > 0) {
             this.navigateMatch(1);
         }
+    }
+
+    clearHighlights() {
+        const highlights = document.querySelectorAll('.highlight');
+        highlights.forEach(highlight => {
+            const parent = highlight.parentNode;
+            parent.replaceChild(document.createTextNode(highlight.textContent), highlight);
+        });
+        // Normalize to merge adjacent text nodes
+        document.getElementById('notesContainer').normalize();
+    }
+
+    highlightMatches(searchTerm) {
+        const container = document.getElementById('notesContainer');
+        const regex = new RegExp(searchTerm, 'gi');
+        
+        const processNode = (node) => {
+            if (node.nodeType === Node.TEXT_NODE) {
+                const text = node.textContent;
+                const matches = [...text.matchAll(regex)];
+                
+                if (matches.length > 0) {
+                    const fragment = document.createDocumentFragment();
+                    let lastIndex = 0;
+                    
+                    matches.forEach(match => {
+                        // Add text before the match
+                        if (match.index > lastIndex) {
+                            fragment.appendChild(
+                                document.createTextNode(text.slice(lastIndex, match.index))
+                            );
+                        }
+                        
+                        // Create and add the highlighted match
+                        const highlight = document.createElement('span');
+                        highlight.className = 'highlight';
+                        highlight.textContent = match[0];
+                        fragment.appendChild(highlight);
+                        this.matches.push(highlight);
+                        
+                        lastIndex = match.index + match[0].length;
+                    });
+                    
+                    // Add any remaining text after the last match
+                    if (lastIndex < text.length) {
+                        fragment.appendChild(
+                            document.createTextNode(text.slice(lastIndex))
+                        );
+                    }
+                    
+                    node.parentNode.replaceChild(fragment, node);
+                }
+            } else if (node.nodeType === Node.ELEMENT_NODE && 
+                      !['script', 'style', 'textarea'].includes(node.tagName.toLowerCase())) {
+                Array.from(node.childNodes).forEach(child => processNode(child));
+            }
+        };
+        
+        processNode(container);
     }
 
     navigateMatch(direction) {
