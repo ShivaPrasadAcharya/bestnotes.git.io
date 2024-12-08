@@ -1,5 +1,15 @@
 const notesData = [
             {
+            id: 34,
+            subject: "Ist paper-JS",
+            title: "Trade Union",
+            subtitle: "Collective Bargaining: Best and Worst Practices",
+            description: "<b>1. Best Practices of Collective Bargaining</b>\n\n<b>Coordinated Bargaining (Germany)</b>\n- Industry-wide negotiations set wage patterns\n- Strong coordination between unions and employer associations\n- Standardized working conditions across sectors\n\n<b>Pattern Bargaining (USA)</b>\n- Lead company/sector sets bargaining template\n- Other companies follow the established pattern\n- Creates wage stability across similar industries\n\n<b>Shunto Model (Japan)</b>\n- Annual \"Spring Offensive\" synchronized wage negotiations\n- Coordinated timing across major industries\n- Considers national economic conditions for wage setting\n\n<b>Inclusive Negotiation (Sweden)</b>\n- High union-employer cooperation\n- Focus on consensus-building\n- Comprehensive social welfare considerations\n\n<b>Social Partnership (Australia)</b>\n- Tripartite collaboration (government, unions, employers)\n- Focus on national economic objectives\n- Balance between worker rights and economic growth\n\n<b>Multi-Employer Bargaining</b>\n- Multiple employers negotiate jointly with unions\n- Creates industry-wide standards\n- Reduces competitive wage pressure between companies\n\n<b>2. Worst Practices in the World</b>\n\n<b>Yellow Unions (Mexico)</b>\n- Company-controlled fake unions\n- Block genuine worker representation\n- Sign agreements without worker consent\n\n<b>Political Interference (Russia)</b>\n- State manipulates union activities\n- Forced political alignment of unions\n- Suppression of independent labor voices\n\n<b>Violent Strike Tactics (Nigeria)</b>\n- Escalation to physical confrontations\n- Use of intimidation and threats\n- Destructive protest methods harming both sides\n\n<b>Non-Regular Workers (South Korea)</b>\n- Massive temporary workforce without benefits\n- Discriminatory dual labor system\n- Exploitation through repeated short-term contracts\n\n<b>Union Busting (Various Countries)</b>\n- Aggressive anti-union campaigns\n- Retaliatory firings of organizers\n- Intimidation of pro-union workers\n\n<b>Contract Labor System (India)</b>\n- Exploitation through multiple subcontractors\n- Denial of basic benefits\n- Evasion of labor laws through intermediaries\n\n<b>Forced Labor (Gulf Countries)</b>\n- Kafala sponsorship system\n- Passport confiscation\n- Limited worker mobility\n\n<b>Child Labor (Many Developing Nations)</b>\n- Hazardous working conditions\n- Denial of education\n- Exploitation in informal sectors\n\n<b>Gender Discrimination (Global)</b>\n- Unequal pay for equal work\n- Limited promotion opportunities\n- Harassment and unsafe conditions\n\n<b>Informal Sector Exploitation (Latin America/Africa)</b>\n- No social security coverage\n- Zero job security\n- Cash payments to avoid regulations\n\n<b>Sweatshop Conditions (Southeast Asia)</b>\n- Excessive working hours\n- Unsafe facilities\n- Below minimum wage payments\n- Sexual harassment, no sick leave\n- Limited bathroom breaks\n- Unsafe building, fire safety violations\n\n<b>Zero-Hour Contracts (UK and others)</b>\n- Unpredictable work hours\n- Income insecurity\n- No guaranteed minimum hours\n\n<b>3. Impacts</b>\n- Perpetual poverty cycle\n- Physical health deterioration\n- Mental health issues\n- Family separation\n- Work-related injuries/deaths\n\n<b>4. Why They Persist</b>\n- Global demand for cheap products\n- Weak labor law enforcement\n- Corruption in monitoring systems\n- Complex supply chains hiding violations\n- Economic desperation of workers",
+            compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
+            dateCreated: "2024-12-08",
+            isPinned: false
+        },
+            {
             id: 33,
             subject: "Ist paper-JS",
             title: "Federalism",
@@ -38,7 +48,7 @@ const notesData = [
             compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
             dateCreated: "2024-12-08",
             isPinned: false
-        }
+        },
             {
             id: 29,
             subject: "zero paper-JS",
@@ -48,7 +58,7 @@ const notesData = [
             compiler: "compiled by: Shiva Prasad Acharya, Supreme Court (2081)/ received from Rajendra Sir",
             dateCreated: "2024-12-08",
             isPinned: false
-        }
+        },
 {
             id: 28,
             subject: "IInd paper-JS",
@@ -58,7 +68,7 @@ const notesData = [
             compiler: " Shiva Prasad Acharya, Supreme Court (2081)",
             dateCreated: "2024-12-08",
             isPinned: false
-        }
+        },
             {
             id: 27,
             subject: "Ist paper-JS",
@@ -88,7 +98,7 @@ const notesData = [
             compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
             dateCreated: "2024-12-08",
             isPinned: false
-        }
+        },
             {
             id: 24,
             subject: "zero paper-JS",
