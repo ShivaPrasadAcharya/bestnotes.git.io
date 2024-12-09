@@ -32,11 +32,10 @@ class NoteManager {
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
-                            <h5 class="card-id">${note.id}</h5>
                             <h5 class="card-title">${note.title}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">${note.subtitle}</h6>
                             <div class="text-muted small">
-                               Subject: ${note.subject} | Compiled by: ${note.compiler} | Created: ${dateCreated}
+                             ID: ${note.id} |  Subject: ${note.subject} | Compiled by: ${note.compiler} | Created: ${dateCreated}
                             </div>
                         </div>
                         <div class="note-actions">
