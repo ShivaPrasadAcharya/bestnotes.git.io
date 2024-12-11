@@ -8,7 +8,7 @@ const notesData = [
             compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
             dateCreated: "2024-12-10",
             isPinned: false
-        }
+        },
 {
             id: 51,
             subject: "IIIrd paper-JS law",
